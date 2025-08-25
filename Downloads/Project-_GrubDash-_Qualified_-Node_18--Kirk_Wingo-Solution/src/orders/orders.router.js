@@ -9,7 +9,7 @@ router
   .get(controller.read)
   .put(controller.update)
   .delete(controller.delete);
-.all(methodNotAllowed)
+  .all(methodNotAllowed)
 
 
 module.exports = router;
